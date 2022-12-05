@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+
+  height: 436px;
+  width: 100%;
+
+  background-color: #535971;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h1,
+legend,
+button,
+h2 {
+  font-family: "Staatliches", cursive;
+}
+
+p,
+label,
+span {
+  font-family: "Poppins", sans-serif;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+header {
+  margin-top: 140px;
+
+  width: 417px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+header h1 {
+  font-size: 48px;
+  line-height: 60px;
+  color: white;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+form {
+  margin-top: 58px;
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  min-height: 300px;
+
+  border-radius: 8px 8px 0 0;
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+legend {
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #535971;
+
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e6e6f0;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #535971;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-wrapper label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #4e4958;
+}
+
+.input-wrapper label span {
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #c1bccc;
+}
+
+.input-wrapper label span:hover {
+  color: #7c7979;
+}
+
+.input-wrapper input {
+  height: 56px;
+
+  background: #fafafc;
+
+  padding: 20px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+.col-2 > div:nth-child(1) {
+  width: 100%;
+}
+
+.col-2 > div:nth-child(2) {
+  width: 100%;
+}
+
+.mentorships h2 {
+  margin-bottom: 8px;
+}
+
+.col-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.col-3 > div:nth-child(1) {
+  width: 100%;
+}
+
+footer {
+  background-color: #535971;
+  height: 160px;
+
+  padding: 52px 71px;
+  border-radius: 0 0 8px 8px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 215px;
+}
+
+footer button {
+  background: #ff5374;
+
+  height: 56px;
+
+  border-radius: 20px;
+  border: none;
+
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+footer button:hover {
+  cursor: pointer;
+  background: #b04359;
+}
